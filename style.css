@@ -46,11 +46,16 @@ button:focus {
 .pane {
     overflow-y: auto;
     background-color: var(--background);
+    min-width: 20%;
     /* padding: 10px; */
 }
 
 .mde-text {
     background-color: var(--boxBackground);
+    color: var(--boxFontColor);
+}
+
+.mde-preview-content {
     color: var(--boxFontColor);
 }
 
@@ -240,6 +245,8 @@ button:focus {
 
   .theme-switch-wrapper > em {
     color: var(--boxFontColor);
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
   }
   
   .theme-switch {
